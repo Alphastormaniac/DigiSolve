@@ -1,0 +1,170 @@
+@media only screen and (max-width:1200px){
+    html,
+    body{
+        font-size: 14px;
+    }
+
+    .about-para{
+        
+        margin-bottom: 25px;
+    }
+
+    .section-heading,
+    .testi-heading,
+    .packages-heading,
+    .contact-heading{
+        margin-top: 90px;
+    }
+
+    .lappy-img{
+        padding-right: 5%;
+    }
+
+    .testi-box{
+        text-align: center;
+    }
+
+    .package-box {
+        width: 100%;
+        /* margin: 0 5px; */
+    }
+   
+}
+
+@media only screen and (max-width:1024px){
+    html,
+    body{
+        font-size: 12px;
+    }
+
+    .row{
+        padding: 0 2%;
+    }
+
+    .about-box{
+        margin-top: 60px;
+    }
+
+    .about-box:first-child{
+        text-align: left;
+        padding: 0%;
+        padding-left: 5%;
+    }
+
+    .lappy-img{
+        padding-right: 5%;
+    }
+
+    .package-box {
+        width: 100%;
+    }
+
+    .package-heading{
+        margin-bottom: 25px;
+    }
+
+    footer{
+        padding: 30px;
+    }
+
+    footer p{
+        line-height:1.3 ;
+        margin-top: 20px;
+    }
+
+    cite img{
+        height: 65px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    html,
+    body{
+        font-size: 10px;
+    }
+
+    .header-text-box{
+        margin-bottom: 50px;
+    }
+
+    .about-heading{
+        margin-bottom: 20px;
+    }
+
+    .section-heading,
+    .testi-heading,
+    .packages-heading,
+    .contact-heading{
+        margin-top: 60px;
+    }
+
+    .section-heading{
+        margin-bottom:10px ;
+    }
+    
+    .section-sub-heading::after{
+        margin: 15px auto 0 auto;
+    }
+
+    .testi-heading{
+        margin-bottom: 10px;
+    }
+
+    cite img{
+        height: 50px;
+    }
+}
+
+
+@media only screen and (max-width:480px){
+    .about-box:first-child{
+        text-align: center;
+    }
+
+    .about-box:last-child{
+        text-align: center;
+    }
+
+    .lappy-img{
+        padding-right: 0;
+    }
+    
+    .about-para{
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+    .span_1_of_4{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .span_1_of_3{
+        padding: 0 10%;
+        margin-bottom: 5px;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .contact-label{
+        padding-left: 0;
+    }
+
+    .footer-nav,
+    .social-links{
+        float:none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .work-container li{
+        width: 50%;
+    }
+
+    .testi-box{
+        margin-bottom: 10px;
+    }
+
+}
