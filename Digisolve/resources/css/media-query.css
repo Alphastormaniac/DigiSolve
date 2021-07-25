@@ -119,6 +119,7 @@
 @media only screen and (max-width:480px){
     .about-box:first-child{
         text-align: center;
+        padding: none;
     }
 
     .about-box:last-child{
